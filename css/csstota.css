@@ -1,0 +1,75 @@
+body{
+    background-color:#0e011f; 
+}
+.contai{
+   
+    display: grid;
+  
+    grid-template-columns: 17% 520px 520px 10% auto;
+    grid-template-rows: 70px 255px 255px 200px;
+    gap: 5px;
+    
+}
+.men{
+    grid-column: 1/2;
+    grid-row: 2/5;
+    padding: 10px 20px;
+    border: solid black;
+    position: relative;
+    width: 140px;
+    
+}
+
+.men li{
+    margin: 20px;
+    margin-top: -10px;
+    margin-left: -55px;
+    width: 120px;
+    border: solid #8a0248 2px;
+    border-radius: 10px;
+    padding: 1px 20px;
+    list-style: none;
+    box-shadow: 5px 5px 10px rgba(16, 2, 35, 0.589);
+    background-color:#8a0248;
+    font-size: 18pt;
+
+
+}
+.loc1{
+    
+    grid-column:1/6;
+    grid-row: 1/1;
+    border: solid #8a0248;
+    font-size: 20pt;
+    margin-top:-35px;
+    color: #8a0248;
+    background-color: rgba(0, 0, 0, 0.77);
+    font-size: 19pt;
+}    
+
+.loc2{
+    grid-column: 2/3;
+    grid-row: 2/2;
+    box-shadow: 5px 5px 10px #b13435;
+        
+}
+.loc2 :hover{
+    grid-column: 2/4;
+    opacity: 0.50;
+    background: #0e011f;
+}
+.loc3{
+    grid-column: 3/3;
+    grid-row: 3/4;
+    box-shadow: 5px 5px 10px #b13435;
+        
+}
+.loc4{
+    grid-column: 2/3;
+    grid-row: 4/4;
+    box-shadow: 5px 5px 10px #b13435;
+    height: 250px;
+    width: 520px;
+    background-color: #0e011f;
+
+}
